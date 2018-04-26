@@ -23,7 +23,7 @@ public class CommonUtils {
      * @param <T>，泛型
      * @return 转换完成的 javaBean
      */
-    public static <T> T toBean(Map map, Class<T> clazz) {
+    public static <T> T toBean(Map<String, ? extends Object> map, Class<T> clazz) {
         try {
             // 1. 创建指定类型的 javaBean 对象
             T bean = clazz.newInstance();
