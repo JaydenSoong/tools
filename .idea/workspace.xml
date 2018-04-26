@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629f2763-dbda-4c1a-9900-dedbe0170d9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/soong/vcode/utils/VerifyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,38 +87,37 @@
     <favorites_list name="tools" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VerifyCode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VerifyCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/vcode/utils/VerifyCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-809">
+            <state relative-caret-position="1525">
               <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3122#3123#0" expanded="true" />
-                <element signature="e#3149#3150#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="376">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding>
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +138,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\gradle-4.4" />
+        <entry key="$PROJECT_DIR$" value="C:\Program Files\gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -342,9 +342,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4573728403242" />
+        <entry key="$PROJECT_DIR$" value="4573959205875" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="4062794822" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="429306254" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1437937971" />
       </map>
     </option>
@@ -367,80 +367,149 @@
               <option name="name" value="tools" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/gradle-4.4/lib/ant-1.9.9.jar" />
-                  <option value="C:/gradle-4.4/lib/ant-launcher-1.9.9.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-base-services-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-base-services-groovy-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-build-cache-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-build-option-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-cli-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-core-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-core-api-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-docs-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-installation-beacon-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-jvm-services-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-kotlin-dsl-tooling-builders-0.13.1.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-kotlin-dsl-tooling-models-0.13.1.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-launcher-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-logging-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-messaging-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-model-core-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-model-groovy-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-native-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-persistent-cache-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-process-services-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-resources-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-runtime-api-info-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/gradle-wrapper-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/groovy-all-2.4.12.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-announce-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-antlr-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-build-cache-http-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-build-comparison-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-build-init-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-code-quality-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-composite-builds-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-dependency-management-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-diagnostics-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-ear-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-ide-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-ide-native-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-ide-play-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-ivy-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-jacoco-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-javascript-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-language-groovy-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-language-java-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-language-jvm-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-language-native-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-language-scala-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-maven-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-osgi-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-platform-base-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-platform-jvm-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-platform-native-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-platform-play-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-plugin-development-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-plugin-use-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-plugins-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-publish-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-reporting-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-resources-gcs-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-resources-http-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-resources-s3-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-resources-sftp-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-scala-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-signing-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-test-kit-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-testing-base-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-testing-jvm-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-testing-native-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-tooling-api-builders-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-version-control-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/gradle-workers-4.4.jar" />
-                  <option value="C:/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="C:/Program Files/gradle-4.4/src/announce" />
+                  <option value="C:/Program Files/gradle-4.4/src/antlr" />
+                  <option value="C:/Program Files/gradle-4.4/src/base-services" />
+                  <option value="C:/Program Files/gradle-4.4/src/base-services-groovy" />
+                  <option value="C:/Program Files/gradle-4.4/src/build-cache" />
+                  <option value="C:/Program Files/gradle-4.4/src/build-cache-http" />
+                  <option value="C:/Program Files/gradle-4.4/src/build-comparison" />
+                  <option value="C:/Program Files/gradle-4.4/src/build-init" />
+                  <option value="C:/Program Files/gradle-4.4/src/build-option" />
+                  <option value="C:/Program Files/gradle-4.4/src/cli" />
+                  <option value="C:/Program Files/gradle-4.4/src/code-quality" />
+                  <option value="C:/Program Files/gradle-4.4/src/composite-builds" />
+                  <option value="C:/Program Files/gradle-4.4/src/core" />
+                  <option value="C:/Program Files/gradle-4.4/src/core-api" />
+                  <option value="C:/Program Files/gradle-4.4/src/dependency-management" />
+                  <option value="C:/Program Files/gradle-4.4/src/diagnostics" />
+                  <option value="C:/Program Files/gradle-4.4/src/ear" />
+                  <option value="C:/Program Files/gradle-4.4/src/ide" />
+                  <option value="C:/Program Files/gradle-4.4/src/ide-native" />
+                  <option value="C:/Program Files/gradle-4.4/src/ide-play" />
+                  <option value="C:/Program Files/gradle-4.4/src/installation-beacon" />
+                  <option value="C:/Program Files/gradle-4.4/src/internal-android-performance-testing" />
+                  <option value="C:/Program Files/gradle-4.4/src/internal-integ-testing" />
+                  <option value="C:/Program Files/gradle-4.4/src/internal-performance-testing" />
+                  <option value="C:/Program Files/gradle-4.4/src/internal-testing" />
+                  <option value="C:/Program Files/gradle-4.4/src/ivy" />
+                  <option value="C:/Program Files/gradle-4.4/src/jacoco" />
+                  <option value="C:/Program Files/gradle-4.4/src/javascript" />
+                  <option value="C:/Program Files/gradle-4.4/src/jvm-services" />
+                  <option value="C:/Program Files/gradle-4.4/src/language-groovy" />
+                  <option value="C:/Program Files/gradle-4.4/src/language-java" />
+                  <option value="C:/Program Files/gradle-4.4/src/language-jvm" />
+                  <option value="C:/Program Files/gradle-4.4/src/language-native" />
+                  <option value="C:/Program Files/gradle-4.4/src/language-scala" />
+                  <option value="C:/Program Files/gradle-4.4/src/launcher" />
+                  <option value="C:/Program Files/gradle-4.4/src/logging" />
+                  <option value="C:/Program Files/gradle-4.4/src/maven" />
+                  <option value="C:/Program Files/gradle-4.4/src/messaging" />
+                  <option value="C:/Program Files/gradle-4.4/src/model-core" />
+                  <option value="C:/Program Files/gradle-4.4/src/model-groovy" />
+                  <option value="C:/Program Files/gradle-4.4/src/native" />
+                  <option value="C:/Program Files/gradle-4.4/src/osgi" />
+                  <option value="C:/Program Files/gradle-4.4/src/persistent-cache" />
+                  <option value="C:/Program Files/gradle-4.4/src/platform-base" />
+                  <option value="C:/Program Files/gradle-4.4/src/platform-jvm" />
+                  <option value="C:/Program Files/gradle-4.4/src/platform-native" />
+                  <option value="C:/Program Files/gradle-4.4/src/platform-play" />
+                  <option value="C:/Program Files/gradle-4.4/src/plugin-development" />
+                  <option value="C:/Program Files/gradle-4.4/src/plugin-use" />
+                  <option value="C:/Program Files/gradle-4.4/src/plugins" />
+                  <option value="C:/Program Files/gradle-4.4/src/process-services" />
+                  <option value="C:/Program Files/gradle-4.4/src/publish" />
+                  <option value="C:/Program Files/gradle-4.4/src/reporting" />
+                  <option value="C:/Program Files/gradle-4.4/src/resources" />
+                  <option value="C:/Program Files/gradle-4.4/src/resources-gcs" />
+                  <option value="C:/Program Files/gradle-4.4/src/resources-http" />
+                  <option value="C:/Program Files/gradle-4.4/src/resources-s3" />
+                  <option value="C:/Program Files/gradle-4.4/src/resources-sftp" />
+                  <option value="C:/Program Files/gradle-4.4/src/scala" />
+                  <option value="C:/Program Files/gradle-4.4/src/signing" />
+                  <option value="C:/Program Files/gradle-4.4/src/test-kit" />
+                  <option value="C:/Program Files/gradle-4.4/src/testing-base" />
+                  <option value="C:/Program Files/gradle-4.4/src/testing-jvm" />
+                  <option value="C:/Program Files/gradle-4.4/src/testing-native" />
+                  <option value="C:/Program Files/gradle-4.4/src/tooling-api" />
+                  <option value="C:/Program Files/gradle-4.4/src/tooling-api-builders" />
+                  <option value="C:/Program Files/gradle-4.4/src/version-control" />
+                  <option value="C:/Program Files/gradle-4.4/src/workers" />
+                  <option value="C:/Program Files/gradle-4.4/src/wrapper" />
+                  <option value="C:/Program Files/gradle-4.4/lib/ant-1.9.9.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-base-services-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-base-services-groovy-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-build-cache-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-build-option-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-cli-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-core-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-core-api-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-docs-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-installation-beacon-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-jvm-services-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-kotlin-dsl-tooling-builders-0.13.1.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-kotlin-dsl-tooling-models-0.13.1.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-launcher-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-logging-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-messaging-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-model-core-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-model-groovy-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-native-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-persistent-cache-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-process-services-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-resources-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-runtime-api-info-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/gradle-wrapper-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-announce-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-antlr-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-build-cache-http-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-build-comparison-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-build-init-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-code-quality-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-composite-builds-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-dependency-management-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-diagnostics-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-ear-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-ide-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-ide-native-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-ide-play-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-ivy-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-jacoco-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-javascript-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-language-groovy-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-language-java-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-language-jvm-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-language-native-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-language-scala-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-maven-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-osgi-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-platform-base-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-platform-jvm-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-platform-native-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-platform-play-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-plugin-development-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-plugin-use-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-plugins-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-publish-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-reporting-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-resources-gcs-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-resources-http-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-resources-s3-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-resources-sftp-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-scala-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-signing-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-test-kit-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-testing-base-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-testing-jvm-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-testing-native-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-tooling-api-builders-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-version-control-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/gradle-workers-4.4.jar" />
+                  <option value="C:/Program Files/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -460,9 +529,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/soong/common/CommonTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/soong/vcode/utils/VerifyCode.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java" />
       </list>
     </option>
   </component>
@@ -475,7 +544,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="103" />
     <option name="y" value="6" />
     <option name="width" value="1286" />
@@ -487,7 +556,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -498,32 +566,6 @@
             <path>
               <item name="tools" type="b2602c69:ProjectViewProjectNode" />
               <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -554,40 +596,21 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="soong" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -739,6 +762,8 @@
       <option name="presentableId" value="Default" />
       <updated>1524574822754</updated>
       <workItem from="1524574829150" duration="4787000" />
+      <workItem from="1524614230957" duration="1511000" />
+      <workItem from="1524730798331" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="UUID">
       <created>1524575797879</created>
@@ -751,7 +776,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4787000" />
+    <option name="totallyTimeSpent" value="7020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,47 +788,46 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.32954547" />
-      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
-      <window_info id="Structure" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24962178" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32803467" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32850942" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32797858" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4989775" weight="0.24962178" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info id="Learn" order="4" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32980332" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4989775" visible="true" weight="0.25286534" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.36278448" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.3295129" />
+      <window_info id="Structure" order="6" sideWeight="0.5010225" side_tool="true" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" sideWeight="0.5010225" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="Learn" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Build" order="0" weight="0.32954547" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32850942" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32850942" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -811,6 +835,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -841,13 +866,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="UUID" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/soong/common/CommonTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="450">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/vcode/utils/VerifyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,29 +886,65 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="1075">
           <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/vcode/utils/VerifyCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-809">
+        <state relative-caret-position="1750">
           <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3122#3123#0" expanded="true" />
-            <element signature="e#3149#3150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/soong/common/CommonTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/vcode/utils/VerifyCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/soong/common/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
           </folding>
         </state>
       </provider>
