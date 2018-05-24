@@ -26,7 +26,7 @@ public class CommonUtils {
     public static <T> T toBean(Map<String, ? extends Object> map, Class<T> clazz) {
         try {
             // 1. 创建指定类型的 javaBean 对象
-            T bean = clazz.newInstance();
+            T bean = clazz.getDeclaredConstructor().newInstance();
             // 2. 把数据封装到 javaBean 中
             BeanUtils.populate(bean, map);
             // 3. 返回封装好的 javaBean 对象
