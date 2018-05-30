@@ -23,7 +23,7 @@ public abstract class BaseServlet extends HttpServlet {
             throw new RuntimeException("你没有传递 method 参数");
         }
         // 得到 Class 对象，以完成反射调用方法
-        Class cl = this.getClass();
+        Class<?> cl = this.getClass();
         Method mt;
         try {
             // 根据 method 参数确定调用方法
