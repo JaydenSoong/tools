@@ -17,6 +17,14 @@ import java.lang.reflect.Method;
  */
 public abstract class BaseServlet extends HttpServlet {
     public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        /*
+         * 对编码的处理
+         */
+        if(request.getMethod().equalsIgnoreCase("post")) {
+            request.setCharacterEncoding("UTF-8");
+        }
+        response.setContentType("text/html;charset=utf-8");
+
         String methodName = request.getParameter("method");
         // 规定用户必须传递名为 method 的参数
         if (methodName == null || methodName.trim().isEmpty()) {
